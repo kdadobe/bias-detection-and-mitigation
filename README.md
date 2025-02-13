@@ -18,10 +18,6 @@ bias_detection_toolkit/
 │── bias_filter/
 │   ├── __init__.py
 │   ├── bias_filter.py  # Core logic for bias detection
-│   ├── model/
-│   │   ├── config.json
-│   │   ├── pytorch_model.bin  # Trained model weights
-│   │   ├── tokenizer.json  # Tokenizer file
 │── api/
 │   ├── __init__.py
 │   ├── main.py  # FastAPI app
