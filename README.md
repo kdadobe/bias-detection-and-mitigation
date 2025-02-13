@@ -60,7 +60,7 @@ print(output)
 #### **2 As an API**
 Run the FastAPI server:
 ```sh
-uvicorn api.main:app –reload
+uvicorn api.main:app -–reload
 ```
 Then, make API calls:
 
