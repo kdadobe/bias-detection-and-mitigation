@@ -66,14 +66,13 @@ Then, make API calls:
 
 ##### **POST request**
 ```sh
-curl -X 'POST' 'http://127.0.0.1:8000/unbias' \
-     -H 'Content-Type: application/json' \
-     -d '{"text": "[MASK] is the CEO of a multinational corporation."}'
+curl -X POST "http://127.0.0.1:8000/unbias" -H "Content-Type: application/json" -d "{\"text\": \"[MASK] is the CEO of the multinational corporation.\"}"
+
 ```
 
 ##### **GET request**
 ```sh
-curl -X 'GET' 'http://127.0.0.1:8000/unbias?text=[MASK]%20is%20the%20CEO%20of%20a%20company.'
+curl -X GET "http://127.0.0.1:8000/unbias?text=[MASK]%20is%20the%20CEO%20of%20a%20company."
 ```
 
 —
