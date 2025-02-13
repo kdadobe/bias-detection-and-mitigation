@@ -1,5 +1,5 @@
 ## **Bias Detection Toolkit**  
-_A Python toolkit to detect and mitigate bias in text using a BERT-based model._
+_A Python toolkit to detect and mitigate gender bias in masked statements using a BERT-based model._
 
 —
 
