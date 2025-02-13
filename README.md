@@ -72,7 +72,7 @@ curl -X POST "http://127.0.0.1:8000/unbias" -H "Content-Type: application/json" 
 
 ##### **GET request**
 ```sh
-curl -X GET "http://127.0.0.1:8000/unbias?text=[MASK]%20is%20the%20CEO%20of%20a%20company."
+curl -X GET "http://127.0.0.1:8000/unbias?text=%5BMASK%5D%20is%20the%20CEO%20of%20a%20company."
 ```
 
 —
