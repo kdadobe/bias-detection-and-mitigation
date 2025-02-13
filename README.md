@@ -13,7 +13,7 @@ _A Python toolkit to detect and mitigate bias in text using a BERT-based model._
 —
 
 ### **📂 Project Structure**
-“`
+```
 bias_detection_toolkit/
 │── bias_filter/
 │   ├── __init__.py
@@ -30,42 +30,42 @@ bias_detection_toolkit/
 │── README.md
 │── tests/
 │   ├── test_bias_filter.py
-“`
+```
 
 —
 
 ### **🔧 Installation**
 
 #### **1 Install Locally**
-“`sh
+```sh
 git clone https://github.com/yourusername/bias-detection.git
 cd bias-detection
 pip install -e .
-“`
+```
 
 #### **2 Install via PyPI (if published)**
-“`sh
+```sh
 pip install bias_detection_toolkit
-“`
+```
 
 —
 
 ### **🚀 Usage**
 
 #### **1 As a Python Module**
-“`python
+```python
 from bias_filter.bias_filter import BiasFilter
 
 bias_filter = BiasFilter(model_path="bias_filter/model/")
 output = bias_filter.process_statement("[MASK] is the CEO of a company.")
 print(output)
-“`
+```
 
 #### **2 As an API**
 Run the FastAPI server:
-“`sh
+```sh
 uvicorn api.main:app –reload
-“`
+```
 Then, make API calls:
 
 ##### **POST request**
