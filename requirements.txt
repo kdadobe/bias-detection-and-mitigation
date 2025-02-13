@@ -1,0 +1,15 @@
+# Core dependencies
+torch
+numpy
+pandas
+scipy
+scikit-learn
+gdown
+spacy
+nltk
+fastapi
+uvicorn
+transformers
+pytest
+Dbias
+en_pipeline @ https://huggingface.co/gstrauss/en_pipeline/resolve/main/en_pipeline-any-py3-none-any.whl
